@@ -1,13 +1,19 @@
 {
   "name": "superteam-hunter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Superteam Autonomous Hunter Daemon",
+  "main": "hunter.js",
   "scripts": {
+    "start": "node hunter.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "superteam",
+    "bounties",
+    "agent",
+    "solana"
+  ],
+  "author": "ThairuMwangi",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
